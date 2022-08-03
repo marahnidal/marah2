@@ -17,9 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Route::get('New', function () {
-   // return 'New Page';
-//});
+
 
 Route::get('post', function () {
     return 'post Page';
